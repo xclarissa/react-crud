@@ -1,8 +1,10 @@
+import { UserForm } from "./components/forms/UserForm";
+
 function App() {
 
   return (
     <>
-      Hello
+      <UserForm userId="12345" />
     </>
   );
 }
